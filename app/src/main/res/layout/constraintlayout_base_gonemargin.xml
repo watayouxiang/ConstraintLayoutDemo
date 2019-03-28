@@ -28,5 +28,4 @@
         app:layout_constraintLeft_toRightOf="@+id/bt_1"
         app:layout_constraintRight_toRightOf="parent" />
 
-
 </android.support.constraint.ConstraintLayout>

@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:layout_editor_absoluteY="25dp">
+    android:layout_height="match_parent">
 
     <!--
     权重：
     layout_constraintHorizontal_weight: 水平权重
     layout_constraintVertical_weight:   垂直权重
     -->
-
     <Button
         android:id="@+id/bt_1"
         android:layout_width="0dp"
@@ -38,6 +35,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_weight="3"
         app:layout_constraintStart_toEndOf="@+id/bt_2" />
-
 
 </android.support.constraint.ConstraintLayout>

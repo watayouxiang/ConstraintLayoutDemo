@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:layout_editor_absoluteY="81dp">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/bt_1"
@@ -20,7 +18,6 @@
     app:layout_constraintGuide_percent="0.5"    guideline位置百分比
     app:layout_constraintGuide_begin="100dp"    guideline距离起点距离
     app:layout_constraintGuide_end="100dp"      guideline距离结点距离
-
     -->
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
